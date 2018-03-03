@@ -764,7 +764,7 @@
             // 
             this.hpalabel.AutoSize = true;
             this.hpalabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hpalabel.Location = new System.Drawing.Point(164, 119);
+            this.hpalabel.Location = new System.Drawing.Point(419, 179);
             this.hpalabel.Name = "hpalabel";
             this.hpalabel.Size = new System.Drawing.Size(50, 24);
             this.hpalabel.TabIndex = 4;
@@ -1779,7 +1779,7 @@
             "35.00"});
             this.inHglist.Location = new System.Drawing.Point(6, -25);
             this.inHglist.Name = "inHglist";
-            this.inHglist.Size = new System.Drawing.Size(94, 283);
+            this.inHglist.Size = new System.Drawing.Size(94, 345);
             this.inHglist.TabIndex = 3;
             this.inHglist.Click += new System.EventHandler(this.inHglist_Click);
             // 

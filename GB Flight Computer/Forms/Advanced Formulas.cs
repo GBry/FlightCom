@@ -147,6 +147,7 @@ namespace GB_Flight_Computer
             double zonetimeres = 0.0;
             double zonetimehres = 0.0;
             double zonetimemres = 0.0;
+            double toctoddistoutput = 0.0;
 
             //init input
             crzalttoc = Convert.ToDouble(crzaltclimbtoc.Text);
@@ -169,14 +170,14 @@ namespace GB_Flight_Computer
             if (toctodselector.Text == "TOC Distance")
             {
                 zonedistres = zonedist - tocnmresult;
-                toctoddistance.Text = Convert.ToString(Math.Round(tocnmresult, 2));
+                toctoddistoutput = tocnmresult;
             }
             else if (toctodselector.Text == "TOD Distance")
             {
-                zonedistres = zonedist = todnmresult;
-                toctoddistance.Text = Convert.ToString(Math.Round(todnmresult, 2));
+                zonedistres = zonedist - todnmresult;
+                toctoddistoutput = todnmresult;
             }
-            zonetimeres = zonedist / zonegs;
+            zonetimeres = zonedistres / zonegs;
             zonetimehres = Math.Truncate(zonetimeres);
             zonetimemres = (zonetimeres - Math.Truncate(zonetimeres)) * 60;
             //output
@@ -185,10 +186,16 @@ namespace GB_Flight_Computer
             tocnmreslbl.Text = Convert.ToString(Math.Round(tocnmresult,2));
             todnmreslbl.Text = Convert.ToString(Math.Round(todnmresult,2));
             zonedistreslbl.Text = Convert.ToString(Math.Round(zonedistres, 2));
-            toctoddistance.Text = Convert.ToString(Math.Round(tocnmresult, 2));
+            toctoddist.Text = Convert.ToString(Math.Round(tocnmresult, 2));
             timelabelzone.Text=Convert.ToString(Math.Round(zonetimeres,2));
             timehlabelzoneres.Text = Convert.ToString(zonetimehres);
             timemlabelzoneres.Text = Convert.ToString(Math.Truncate(zonetimemres));
+            toctoddist.Text = Convert.ToString(Math.Round(toctoddistoutput, 2));
+
+        }
+
+        private void toctodselector_TextChanged(object sender, EventArgs e)
+        {
 
         }
 
@@ -734,6 +741,8 @@ namespace GB_Flight_Computer
         {
             calctvst();
         }
+
+        
     }
 
 }

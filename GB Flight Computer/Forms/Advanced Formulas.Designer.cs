@@ -60,7 +60,7 @@
             this.gslblzone = new System.Windows.Forms.Label();
             this.gstbzone = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.toctoddistance = new System.Windows.Forms.Label();
+            this.toctoddist = new System.Windows.Forms.Label();
             this.toctodselector = new System.Windows.Forms.ComboBox();
             this.minuslblzone = new System.Windows.Forms.Label();
             this.abdistlbl = new System.Windows.Forms.Label();
@@ -326,6 +326,7 @@
             this.convbutton_AF = new System.Windows.Forms.Button();
             this.label18 = new System.Windows.Forms.Label();
             this.MainMenuButton_Conv = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
             this.AFCTabs.SuspendLayout();
             this.CHPage.SuspendLayout();
             this.toctod.SuspendLayout();
@@ -517,6 +518,7 @@
             // toctod
             // 
             this.toctod.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.toctod.Controls.Add(this.label8);
             this.toctod.Controls.Add(this.hourslabelzone);
             this.toctod.Controls.Add(this.timelabelzone);
             this.toctod.Controls.Add(this.timemlabelzone);
@@ -532,7 +534,7 @@
             this.toctod.Controls.Add(this.gslblzone);
             this.toctod.Controls.Add(this.gstbzone);
             this.toctod.Controls.Add(this.label5);
-            this.toctod.Controls.Add(this.toctoddistance);
+            this.toctod.Controls.Add(this.toctoddist);
             this.toctod.Controls.Add(this.toctodselector);
             this.toctod.Controls.Add(this.minuslblzone);
             this.toctod.Controls.Add(this.abdistlbl);
@@ -721,14 +723,14 @@
             this.label5.TabIndex = 70;
             this.label5.Text = "=";
             // 
-            // toctoddistance
+            // toctoddist
             // 
-            this.toctoddistance.AutoSize = true;
-            this.toctoddistance.Location = new System.Drawing.Point(199, 287);
-            this.toctoddistance.Name = "toctoddistance";
-            this.toctoddistance.Size = new System.Drawing.Size(26, 29);
-            this.toctoddistance.TabIndex = 69;
-            this.toctoddistance.Text = "0";
+            this.toctoddist.AutoSize = true;
+            this.toctoddist.Location = new System.Drawing.Point(199, 287);
+            this.toctoddist.Name = "toctoddist";
+            this.toctoddist.Size = new System.Drawing.Size(26, 29);
+            this.toctoddist.TabIndex = 69;
+            this.toctoddist.Text = "0";
             // 
             // toctodselector
             // 
@@ -932,9 +934,9 @@
             this.crzalttod.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.crzalttod.Location = new System.Drawing.Point(226, 139);
             this.crzalttod.Name = "crzalttod";
-            this.crzalttod.Size = new System.Drawing.Size(113, 18);
+            this.crzalttod.Size = new System.Drawing.Size(110, 18);
             this.crzalttod.TabIndex = 44;
-            this.crzalttod.Text = "Cruising Altitude";
+            this.crzalttod.Text = "Altitude Change";
             // 
             // todlbl
             // 
@@ -1016,9 +1018,9 @@
             this.crzalttoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.crzalttoc.Location = new System.Drawing.Point(226, 6);
             this.crzalttoc.Name = "crzalttoc";
-            this.crzalttoc.Size = new System.Drawing.Size(113, 18);
+            this.crzalttoc.Size = new System.Drawing.Size(110, 18);
             this.crzalttoc.TabIndex = 32;
-            this.crzalttoc.Text = "Cruising Altitude";
+            this.crzalttoc.Text = "Altitude Change";
             // 
             // toclbl
             // 
@@ -3487,6 +3489,16 @@
             this.MainMenuButton_Conv.UseVisualStyleBackColor = true;
             this.MainMenuButton_Conv.Click += new System.EventHandler(this.MainMenuButton_Conv_Click);
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(571, 6);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(478, 18);
+            this.label8.TabIndex = 123;
+            this.label8.Text = "To insert to navlog, insert toc first before zone, and zone first before tod";
+            // 
             // Advanced_Formulas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -3770,7 +3782,7 @@
         private System.Windows.Forms.Label abdistlbl;
         private System.Windows.Forms.Label minuslblzone;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label toctoddistance;
+        private System.Windows.Forms.Label toctoddist;
         private System.Windows.Forms.ComboBox toctodselector;
         private System.Windows.Forms.Label zonedistnmlbl;
         private System.Windows.Forms.Label zonedistreslbl;
@@ -3825,5 +3837,6 @@
         private System.Windows.Forms.ComboBox scbtvst;
         private System.Windows.Forms.ComboBox vcbtvst;
         private System.Windows.Forms.Label vstinstrlbl;
+        private System.Windows.Forms.Label label8;
     }
 }

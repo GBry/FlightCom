@@ -48,7 +48,6 @@
             this.LEWLabel = new System.Windows.Forms.Label();
             this.EWLabel = new System.Windows.Forms.Label();
             this.MGWLabel = new System.Windows.Forms.Label();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.ACSelect = new System.Windows.Forms.ComboBox();
             this.MainMenuButton_Conv = new System.Windows.Forms.Button();
             this.PilotLabel = new System.Windows.Forms.Label();
@@ -92,6 +91,7 @@
             this.TotalNum = new System.Windows.Forms.Label();
             this.TotalLbsLbl = new System.Windows.Forms.Label();
             this.HelpLbl = new System.Windows.Forms.Label();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
             this.WnBTabs.SuspendLayout();
             this.TotalLabel.SuspendLayout();
             this.SuspendLayout();
@@ -99,7 +99,7 @@
             // WnBTabs
             // 
             this.WnBTabs.Controls.Add(this.TotalLabel);
-            this.WnBTabs.Controls.Add(this.tabPage2);
+            this.WnBTabs.Controls.Add(this.tabPage1);
             this.WnBTabs.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.WnBTabs.Location = new System.Drawing.Point(12, 58);
             this.WnBTabs.Name = "WnBTabs";
@@ -305,16 +305,6 @@
             this.MGWLabel.Size = new System.Drawing.Size(139, 20);
             this.MGWLabel.TabIndex = 0;
             this.MGWLabel.Text = "Max Gross Weight";
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 29);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(582, 341);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // ACSelect
             // 
@@ -732,6 +722,16 @@
             this.HelpLbl.TabIndex = 100;
             this.HelpLbl.Text = "1. Select Aircraft\r\n2. Leave either unit empty for Oil or Fuel";
             // 
+            // tabPage1
+            // 
+            this.tabPage1.Location = new System.Drawing.Point(4, 29);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(582, 341);
+            this.tabPage1.TabIndex = 1;
+            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
             // WnB
             // 
             this.AcceptButton = this.CalcButton;
@@ -797,7 +797,6 @@
 
         private System.Windows.Forms.TabControl WnBTabs;
         private System.Windows.Forms.TabPage TotalLabel;
-        private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.ComboBox ACSelect;
         private System.Windows.Forms.Button MainMenuButton_Conv;
         private System.Windows.Forms.Label EWLabel;
@@ -859,5 +858,6 @@
         private System.Windows.Forms.Label MGWnumLbl;
         private System.Windows.Forms.Label ExcLbl;
         private System.Windows.Forms.Label HelpLbl;
+        private System.Windows.Forms.TabPage tabPage1;
     }
 }
