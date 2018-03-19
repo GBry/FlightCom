@@ -78,6 +78,14 @@ namespace GB_Flight_Computer
             this.Hide();
             nvlmkr.Show();
         }
+        /*private static bool afcform_open;
+        private static bool convform_open;
+        private static bool faform_open;
+        private static bool wnbform_open;
+        private static bool nvlgmkrform_open;
+        private static bool settingsform_open;
+        private static bool nvlgsform_open;
+        */
     }
     
 }

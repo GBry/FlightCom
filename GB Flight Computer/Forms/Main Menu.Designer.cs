@@ -172,9 +172,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(354, 510);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(130, 13);
+            this.label2.Size = new System.Drawing.Size(142, 13);
             this.label2.TabIndex = 11;
-            this.label2.Text = "Version 2 Mar 18 6:37 PM";
+            this.label2.Text = "Version 10 Mar 18 10:40 AM";
             // 
             // fplnflr_Main
             // 

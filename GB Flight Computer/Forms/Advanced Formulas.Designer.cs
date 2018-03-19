@@ -45,6 +45,7 @@
             this.CH_DPTB = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
             this.toctod = new System.Windows.Forms.TabPage();
+            this.label8 = new System.Windows.Forms.Label();
             this.hourslabelzone = new System.Windows.Forms.Label();
             this.timelabelzone = new System.Windows.Forms.Label();
             this.timemlabelzone = new System.Windows.Forms.Label();
@@ -304,18 +305,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.Temperature = new System.Windows.Forms.TabPage();
-            this.label3 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
-            this.label17 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.OvertakingPage = new System.Windows.Forms.TabPage();
             this.InterceptPage = new System.Windows.Forms.TabPage();
             this.nonformula = new System.Windows.Forms.TabPage();
@@ -326,7 +315,6 @@
             this.convbutton_AF = new System.Windows.Forms.Button();
             this.label18 = new System.Windows.Forms.Label();
             this.MainMenuButton_Conv = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
             this.AFCTabs.SuspendLayout();
             this.CHPage.SuspendLayout();
             this.toctod.SuspendLayout();
@@ -336,7 +324,6 @@
             this.formulavst.SuspendLayout();
             this.PivAPage.SuspendLayout();
             this.oneinsixtypage.SuspendLayout();
-            this.Temperature.SuspendLayout();
             this.nonformula.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.WDWVRevPage.SuspendLayout();
@@ -352,7 +339,6 @@
             this.AFCTabs.Controls.Add(this.VSTPage);
             this.AFCTabs.Controls.Add(this.PivAPage);
             this.AFCTabs.Controls.Add(this.oneinsixtypage);
-            this.AFCTabs.Controls.Add(this.Temperature);
             this.AFCTabs.Controls.Add(this.OvertakingPage);
             this.AFCTabs.Controls.Add(this.InterceptPage);
             this.AFCTabs.Controls.Add(this.nonformula);
@@ -574,12 +560,22 @@
             this.toctod.Controls.Add(this.label30);
             this.toctod.Controls.Add(this.label34);
             this.toctod.Controls.Add(this.label60);
-            this.toctod.Location = new System.Drawing.Point(4, 163);
+            this.toctod.Location = new System.Drawing.Point(4, 55);
             this.toctod.Name = "toctod";
-            this.toctod.Size = new System.Drawing.Size(1079, 341);
+            this.toctod.Size = new System.Drawing.Size(1079, 449);
             this.toctod.TabIndex = 11;
             this.toctod.Text = "TOC/TOD";
             this.toctod.UseVisualStyleBackColor = true;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(571, 6);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(478, 18);
+            this.label8.TabIndex = 123;
+            this.label8.Text = "To insert to navlog, insert toc first before zone, and zone first before tod";
             // 
             // hourslabelzone
             // 
@@ -1171,9 +1167,9 @@
             this.flgtpaoat.Controls.Add(this.FLlbl2);
             this.flgtpaoat.Controls.Add(this.label42);
             this.flgtpaoat.Controls.Add(this.label39);
-            this.flgtpaoat.Location = new System.Drawing.Point(4, 163);
+            this.flgtpaoat.Location = new System.Drawing.Point(4, 55);
             this.flgtpaoat.Name = "flgtpaoat";
-            this.flgtpaoat.Size = new System.Drawing.Size(1079, 341);
+            this.flgtpaoat.Size = new System.Drawing.Size(1079, 449);
             this.flgtpaoat.TabIndex = 6;
             this.flgtpaoat.Text = "FL,PA,GT,OAT";
             this.flgtpaoat.UseVisualStyleBackColor = true;
@@ -1901,9 +1897,9 @@
             this.RAPage.Controls.Add(this.Windlbl);
             this.RAPage.Controls.Add(this.TASlbl);
             this.RAPage.Controls.Add(this.label77);
-            this.RAPage.Location = new System.Drawing.Point(4, 163);
+            this.RAPage.Location = new System.Drawing.Point(4, 55);
             this.RAPage.Name = "RAPage";
-            this.RAPage.Size = new System.Drawing.Size(1079, 341);
+            this.RAPage.Size = new System.Drawing.Size(1079, 449);
             this.RAPage.TabIndex = 7;
             this.RAPage.Text = "Radius of Action";
             this.RAPage.UseVisualStyleBackColor = true;
@@ -2466,9 +2462,9 @@
             this.VSTPage.Controls.Add(this.showformulavst);
             this.VSTPage.Controls.Add(this.calcbuttonvst);
             this.VSTPage.Controls.Add(this.formulavst);
-            this.VSTPage.Location = new System.Drawing.Point(4, 163);
+            this.VSTPage.Location = new System.Drawing.Point(4, 55);
             this.VSTPage.Name = "VSTPage";
-            this.VSTPage.Size = new System.Drawing.Size(1079, 341);
+            this.VSTPage.Size = new System.Drawing.Size(1079, 449);
             this.VSTPage.TabIndex = 2;
             this.VSTPage.Text = "Speed, Distance and Time";
             this.VSTPage.UseVisualStyleBackColor = true;
@@ -3041,10 +3037,10 @@
             // 
             this.PivAPage.Controls.Add(this.label68);
             this.PivAPage.Controls.Add(this.textBox4);
-            this.PivAPage.Location = new System.Drawing.Point(4, 163);
+            this.PivAPage.Location = new System.Drawing.Point(4, 109);
             this.PivAPage.Name = "PivAPage";
             this.PivAPage.Padding = new System.Windows.Forms.Padding(3);
-            this.PivAPage.Size = new System.Drawing.Size(1079, 341);
+            this.PivAPage.Size = new System.Drawing.Size(1079, 395);
             this.PivAPage.TabIndex = 0;
             this.PivAPage.Text = "Pivotal Altitude (WIP)";
             this.PivAPage.UseVisualStyleBackColor = true;
@@ -3083,9 +3079,9 @@
             this.oneinsixtypage.Controls.Add(this.button1);
             this.oneinsixtypage.Controls.Add(this.textBox1);
             this.oneinsixtypage.Controls.Add(this.label1);
-            this.oneinsixtypage.Location = new System.Drawing.Point(4, 163);
+            this.oneinsixtypage.Location = new System.Drawing.Point(4, 109);
             this.oneinsixtypage.Name = "oneinsixtypage";
-            this.oneinsixtypage.Size = new System.Drawing.Size(1079, 341);
+            this.oneinsixtypage.Size = new System.Drawing.Size(1079, 395);
             this.oneinsixtypage.TabIndex = 3;
             this.oneinsixtypage.Text = "1 in 60 miles (WIP)";
             this.oneinsixtypage.UseVisualStyleBackColor = true;
@@ -3262,143 +3258,23 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Hour(s) in Decimal";
             // 
-            // Temperature
-            // 
-            this.Temperature.Controls.Add(this.label3);
-            this.Temperature.Controls.Add(this.button7);
-            this.Temperature.Controls.Add(this.label4);
-            this.Temperature.Controls.Add(this.label9);
-            this.Temperature.Controls.Add(this.label13);
-            this.Temperature.Controls.Add(this.textBox2);
-            this.Temperature.Controls.Add(this.label15);
-            this.Temperature.Controls.Add(this.label16);
-            this.Temperature.Controls.Add(this.button8);
-            this.Temperature.Controls.Add(this.label17);
-            this.Temperature.Controls.Add(this.textBox3);
-            this.Temperature.Location = new System.Drawing.Point(4, 163);
-            this.Temperature.Name = "Temperature";
-            this.Temperature.Size = new System.Drawing.Size(1079, 341);
-            this.Temperature.TabIndex = 5;
-            this.Temperature.Text = "Temperature (WIP)";
-            this.Temperature.UseVisualStyleBackColor = true;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(550, 232);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(229, 58);
-            this.label3.TabIndex = 27;
-            this.label3.Text = "U.S. Gal x 6.0 = Lbs.\r\nLbs. / 6.0 = U.S. Gal.";
-            this.label3.Visible = false;
-            // 
-            // button7
-            // 
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(554, 206);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(216, 23);
-            this.button7.TabIndex = 26;
-            this.button7.Text = "How come?";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(439, 221);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(52, 29);
-            this.label4.TabIndex = 25;
-            this.label4.Text = "Lbs";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(24, 261);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(207, 29);
-            this.label9.TabIndex = 24;
-            this.label9.Text = "Lbs. of fuel equals";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(310, 216);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(26, 29);
-            this.label13.TabIndex = 23;
-            this.label13.Text = "0";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(25, 200);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(223, 35);
-            this.textBox2.TabIndex = 22;
-            this.textBox2.Text = "0";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(439, 49);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(52, 29);
-            this.label15.TabIndex = 21;
-            this.label15.Text = "Lbs";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(24, 60);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(295, 29);
-            this.label16.TabIndex = 20;
-            this.label16.Text = "U.S. Gallons of fuel equals";
-            // 
-            // button8
-            // 
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(554, 55);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(216, 112);
-            this.button8.TabIndex = 19;
-            this.button8.Text = "Calculate";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(310, 44);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(26, 29);
-            this.label17.TabIndex = 18;
-            this.label17.Text = "0";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(25, 28);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(223, 35);
-            this.textBox3.TabIndex = 17;
-            this.textBox3.Text = "0";
-            // 
             // OvertakingPage
             // 
             this.OvertakingPage.AutoScroll = true;
             this.OvertakingPage.BackColor = System.Drawing.SystemColors.Control;
             this.OvertakingPage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.OvertakingPage.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.OvertakingPage.Location = new System.Drawing.Point(4, 163);
+            this.OvertakingPage.Location = new System.Drawing.Point(4, 109);
             this.OvertakingPage.Name = "OvertakingPage";
-            this.OvertakingPage.Size = new System.Drawing.Size(1079, 341);
+            this.OvertakingPage.Size = new System.Drawing.Size(1079, 395);
             this.OvertakingPage.TabIndex = 8;
             this.OvertakingPage.Text = "Overtaking (WIP)";
             // 
             // InterceptPage
             // 
-            this.InterceptPage.Location = new System.Drawing.Point(4, 163);
+            this.InterceptPage.Location = new System.Drawing.Point(4, 109);
             this.InterceptPage.Name = "InterceptPage";
-            this.InterceptPage.Size = new System.Drawing.Size(1079, 341);
+            this.InterceptPage.Size = new System.Drawing.Size(1079, 395);
             this.InterceptPage.TabIndex = 9;
             this.InterceptPage.Text = "Interception (WIP)";
             this.InterceptPage.UseVisualStyleBackColor = true;
@@ -3489,16 +3365,6 @@
             this.MainMenuButton_Conv.UseVisualStyleBackColor = true;
             this.MainMenuButton_Conv.Click += new System.EventHandler(this.MainMenuButton_Conv_Click);
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(571, 6);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(478, 18);
-            this.label8.TabIndex = 123;
-            this.label8.Text = "To insert to navlog, insert toc first before zone, and zone first before tod";
-            // 
             // Advanced_Formulas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -3527,8 +3393,6 @@
             this.PivAPage.PerformLayout();
             this.oneinsixtypage.ResumeLayout(false);
             this.oneinsixtypage.PerformLayout();
-            this.Temperature.ResumeLayout(false);
-            this.Temperature.PerformLayout();
             this.nonformula.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.WDWVRevPage.ResumeLayout(false);
@@ -3566,18 +3430,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TabPage Temperature;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button convbutton_AF;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.TabPage flgtpaoat;

@@ -15,6 +15,7 @@ namespace GB_Flight_Computer
         public Advanced_Formulas()
         {
             InitializeComponent();
+            
         }
 
         private void convbutton_AF_Click(object sender, EventArgs e)
@@ -30,6 +31,7 @@ namespace GB_Flight_Computer
             MainMenu mmform = new MainMenu();
             this.Hide();
             mmform.Show();
+            
         }
         /*
         
