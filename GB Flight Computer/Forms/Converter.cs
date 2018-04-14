@@ -573,6 +573,7 @@ namespace GB_Flight_Computer
             double speedres = 0.0;
             int timemultgui = 60;
             double distmultgui = 0.0;
+            double speedinput = Convert.ToDouble(speedinputtb.Text);
 
             
 
@@ -645,7 +646,7 @@ namespace GB_Flight_Computer
             //output
             distres = distmult;
             timeres = timemult;
-            speedres = distmult / timemult;
+            speedres = speedinput * distmult / timemult;
             distmultspeedconv.Text = Convert.ToString(distmultgui);
             timemultspeedconv.Text = Convert.ToString(timemultgui);
             speedresspeedconv.Text =Convert.ToString(Math.Round(speedres,2));

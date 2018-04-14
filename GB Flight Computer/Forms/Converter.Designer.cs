@@ -145,9 +145,11 @@
             this.parclslblpa = new System.Windows.Forms.Label();
             this.IASMACH = new System.Windows.Forms.TabPage();
             this.speedconv = new System.Windows.Forms.TabPage();
-            this.MainMenuButton_Conv = new System.Windows.Forms.Button();
-            this.afcbutton = new System.Windows.Forms.Button();
-            this.label18 = new System.Windows.Forms.Label();
+            this.multlblbotspeedconv = new System.Windows.Forms.Label();
+            this.timeunitresspeedconv = new System.Windows.Forms.ComboBox();
+            this.distunitresspeedconv = new System.Windows.Forms.ComboBox();
+            this.label32 = new System.Windows.Forms.Label();
+            this.timeunitinputspeedconv = new System.Windows.Forms.ComboBox();
             this.speedresspeedconv = new System.Windows.Forms.Label();
             this.multlbltopspeedconv = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
@@ -155,14 +157,12 @@
             this.distmultspeedconv = new System.Windows.Forms.Label();
             this.timemultspeedconv = new System.Windows.Forms.Label();
             this.distunitinputspeedconv = new System.Windows.Forms.ComboBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.speedinputtb = new System.Windows.Forms.TextBox();
             this.label31 = new System.Windows.Forms.Label();
-            this.timeunitinputspeedconv = new System.Windows.Forms.ComboBox();
-            this.timeunitresspeedconv = new System.Windows.Forms.ComboBox();
-            this.distunitresspeedconv = new System.Windows.Forms.ComboBox();
-            this.label32 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
-            this.multlblbotspeedconv = new System.Windows.Forms.Label();
+            this.MainMenuButton_Conv = new System.Windows.Forms.Button();
+            this.afcbutton = new System.Windows.Forms.Button();
+            this.label18 = new System.Windows.Forms.Label();
             this.ConvTabs.SuspendLayout();
             this.AltSetting.SuspendLayout();
             this.Temperature.SuspendLayout();
@@ -233,6 +233,7 @@
             // 
             // hpalistbox
             // 
+            this.hpalistbox.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.hpalistbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hpalistbox.FormattingEnabled = true;
             this.hpalistbox.ItemHeight = 31;
@@ -697,6 +698,7 @@
             "1304"});
             this.hpalistbox.Location = new System.Drawing.Point(414, -11);
             this.hpalistbox.Name = "hpalistbox";
+            this.hpalistbox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
             this.hpalistbox.Size = new System.Drawing.Size(94, 345);
             this.hpalistbox.TabIndex = 6;
             this.hpalistbox.SelectedValueChanged += new System.EventHandler(this.hpalistbox_SelectedValueChanged);
@@ -2256,7 +2258,7 @@
             // 
             this.tecnamfulloil.Location = new System.Drawing.Point(282, 272);
             this.tecnamfulloil.Name = "tecnamfulloil";
-            this.tecnamfulloil.Size = new System.Drawing.Size(139, 34);
+            this.tecnamfulloil.Size = new System.Drawing.Size(139, 29);
             this.tecnamfulloil.TabIndex = 31;
             this.tecnamfulloil.Text = "P2006T Full";
             this.tecnamfulloil.UseVisualStyleBackColor = true;
@@ -2266,7 +2268,7 @@
             // 
             this.c172fulloil.Location = new System.Drawing.Point(148, 272);
             this.c172fulloil.Name = "c172fulloil";
-            this.c172fulloil.Size = new System.Drawing.Size(128, 34);
+            this.c172fulloil.Size = new System.Drawing.Size(128, 29);
             this.c172fulloil.TabIndex = 29;
             this.c172fulloil.Text = "C172 Full";
             this.c172fulloil.UseVisualStyleBackColor = true;
@@ -2277,7 +2279,7 @@
             // 
             this.c152fulloil.Location = new System.Drawing.Point(3, 272);
             this.c152fulloil.Name = "c152fulloil";
-            this.c152fulloil.Size = new System.Drawing.Size(139, 34);
+            this.c152fulloil.Size = new System.Drawing.Size(139, 29);
             this.c152fulloil.TabIndex = 28;
             this.c152fulloil.Text = "C152 Full";
             this.c152fulloil.UseVisualStyleBackColor = true;
@@ -2722,7 +2724,7 @@
             this.IASTAS.Name = "IASTAS";
             this.IASTAS.Size = new System.Drawing.Size(795, 304);
             this.IASTAS.TabIndex = 6;
-            this.IASTAS.Text = "IAS-->TAS";
+            this.IASTAS.Text = "IAS to TAS";
             this.IASTAS.UseVisualStyleBackColor = true;
             // 
             // label21
@@ -2925,7 +2927,7 @@
             this.speedconv.Controls.Add(this.distmultspeedconv);
             this.speedconv.Controls.Add(this.timemultspeedconv);
             this.speedconv.Controls.Add(this.distunitinputspeedconv);
-            this.speedconv.Controls.Add(this.textBox2);
+            this.speedconv.Controls.Add(this.speedinputtb);
             this.speedconv.Controls.Add(this.label31);
             this.speedconv.Controls.Add(this.label23);
             this.speedconv.Location = new System.Drawing.Point(4, 62);
@@ -2935,38 +2937,72 @@
             this.speedconv.Text = "Speed converter (WIP)";
             this.speedconv.UseVisualStyleBackColor = true;
             // 
-            // MainMenuButton_Conv
+            // multlblbotspeedconv
             // 
-            this.MainMenuButton_Conv.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MainMenuButton_Conv.Location = new System.Drawing.Point(520, 388);
-            this.MainMenuButton_Conv.Name = "MainMenuButton_Conv";
-            this.MainMenuButton_Conv.Size = new System.Drawing.Size(241, 90);
-            this.MainMenuButton_Conv.TabIndex = 2;
-            this.MainMenuButton_Conv.Text = "Main Menu";
-            this.MainMenuButton_Conv.UseVisualStyleBackColor = true;
-            this.MainMenuButton_Conv.Click += new System.EventHandler(this.MainMenuButton_Conv_Click);
+            this.multlblbotspeedconv.AutoSize = true;
+            this.multlblbotspeedconv.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.multlblbotspeedconv.Location = new System.Drawing.Point(226, 168);
+            this.multlblbotspeedconv.Name = "multlblbotspeedconv";
+            this.multlblbotspeedconv.Size = new System.Drawing.Size(27, 31);
+            this.multlblbotspeedconv.TabIndex = 78;
+            this.multlblbotspeedconv.Text = "x";
             // 
-            // afcbutton
+            // timeunitresspeedconv
             // 
-            this.afcbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.afcbutton.Location = new System.Drawing.Point(16, 388);
-            this.afcbutton.Name = "afcbutton";
-            this.afcbutton.Size = new System.Drawing.Size(241, 90);
-            this.afcbutton.TabIndex = 3;
-            this.afcbutton.Text = "Advanced Formulas";
-            this.afcbutton.UseVisualStyleBackColor = true;
-            this.afcbutton.Click += new System.EventHandler(this.afcbutton_Click);
+            this.timeunitresspeedconv.FormattingEnabled = true;
+            this.timeunitresspeedconv.Items.AddRange(new object[] {
+            "H",
+            "M",
+            "S"});
+            this.timeunitresspeedconv.Location = new System.Drawing.Point(573, 168);
+            this.timeunitresspeedconv.Name = "timeunitresspeedconv";
+            this.timeunitresspeedconv.Size = new System.Drawing.Size(56, 32);
+            this.timeunitresspeedconv.TabIndex = 76;
+            this.timeunitresspeedconv.Text = "H";
+            this.timeunitresspeedconv.TextChanged += new System.EventHandler(this.timeunitresspeedconv_TextChanged);
             // 
-            // label18
+            // distunitresspeedconv
             // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(263, 406);
-            this.label18.MaximumSize = new System.Drawing.Size(250, 0);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(246, 58);
-            this.label18.TabIndex = 4;
-            this.label18.Text = "If not here consult the AF button";
+            this.distunitresspeedconv.FormattingEnabled = true;
+            this.distunitresspeedconv.Items.AddRange(new object[] {
+            "KM",
+            "M",
+            "NM",
+            "SM",
+            "Ft.",
+            "Yd.",
+            "Pc.",
+            "AU"});
+            this.distunitresspeedconv.Location = new System.Drawing.Point(573, 130);
+            this.distunitresspeedconv.Name = "distunitresspeedconv";
+            this.distunitresspeedconv.Size = new System.Drawing.Size(56, 32);
+            this.distunitresspeedconv.TabIndex = 74;
+            this.distunitresspeedconv.Text = "KM";
+            this.distunitresspeedconv.TextChanged += new System.EventHandler(this.distunitresspeedconv_TextChanged);
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.BackColor = System.Drawing.Color.Transparent;
+            this.label32.Location = new System.Drawing.Point(554, 144);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(90, 24);
+            this.label32.TabIndex = 75;
+            this.label32.Text = "________";
+            // 
+            // timeunitinputspeedconv
+            // 
+            this.timeunitinputspeedconv.FormattingEnabled = true;
+            this.timeunitinputspeedconv.Items.AddRange(new object[] {
+            "H",
+            "M",
+            "S"});
+            this.timeunitinputspeedconv.Location = new System.Drawing.Point(149, 168);
+            this.timeunitinputspeedconv.Name = "timeunitinputspeedconv";
+            this.timeunitinputspeedconv.Size = new System.Drawing.Size(56, 32);
+            this.timeunitinputspeedconv.TabIndex = 73;
+            this.timeunitinputspeedconv.Text = "H";
+            this.timeunitinputspeedconv.TextChanged += new System.EventHandler(this.timeunitinputspeedconv_TextChanged);
             // 
             // speedresspeedconv
             // 
@@ -3043,14 +3079,14 @@
             this.distunitinputspeedconv.Text = "KM";
             this.distunitinputspeedconv.TextChanged += new System.EventHandler(this.distunitinputspeedconv_TextChanged);
             // 
-            // textBox2
+            // speedinputtb
             // 
-            this.textBox2.Location = new System.Drawing.Point(16, 144);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 29);
-            this.textBox2.TabIndex = 13;
-            this.textBox2.Text = "0";
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.speedinputtb.Location = new System.Drawing.Point(16, 144);
+            this.speedinputtb.Name = "speedinputtb";
+            this.speedinputtb.Size = new System.Drawing.Size(100, 29);
+            this.speedinputtb.TabIndex = 13;
+            this.speedinputtb.Text = "0";
+            this.speedinputtb.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label31
             // 
@@ -3062,63 +3098,6 @@
             this.label31.TabIndex = 72;
             this.label31.Text = "________";
             // 
-            // timeunitinputspeedconv
-            // 
-            this.timeunitinputspeedconv.FormattingEnabled = true;
-            this.timeunitinputspeedconv.Items.AddRange(new object[] {
-            "H",
-            "M",
-            "S"});
-            this.timeunitinputspeedconv.Location = new System.Drawing.Point(149, 168);
-            this.timeunitinputspeedconv.Name = "timeunitinputspeedconv";
-            this.timeunitinputspeedconv.Size = new System.Drawing.Size(56, 32);
-            this.timeunitinputspeedconv.TabIndex = 73;
-            this.timeunitinputspeedconv.Text = "H";
-            this.timeunitinputspeedconv.TextChanged += new System.EventHandler(this.timeunitinputspeedconv_TextChanged);
-            // 
-            // timeunitresspeedconv
-            // 
-            this.timeunitresspeedconv.FormattingEnabled = true;
-            this.timeunitresspeedconv.Items.AddRange(new object[] {
-            "H",
-            "M",
-            "S"});
-            this.timeunitresspeedconv.Location = new System.Drawing.Point(573, 168);
-            this.timeunitresspeedconv.Name = "timeunitresspeedconv";
-            this.timeunitresspeedconv.Size = new System.Drawing.Size(56, 32);
-            this.timeunitresspeedconv.TabIndex = 76;
-            this.timeunitresspeedconv.Text = "H";
-            this.timeunitresspeedconv.TextChanged += new System.EventHandler(this.timeunitresspeedconv_TextChanged);
-            // 
-            // distunitresspeedconv
-            // 
-            this.distunitresspeedconv.FormattingEnabled = true;
-            this.distunitresspeedconv.Items.AddRange(new object[] {
-            "KM",
-            "M",
-            "NM",
-            "SM",
-            "Ft.",
-            "Yd.",
-            "Pc.",
-            "AU"});
-            this.distunitresspeedconv.Location = new System.Drawing.Point(573, 130);
-            this.distunitresspeedconv.Name = "distunitresspeedconv";
-            this.distunitresspeedconv.Size = new System.Drawing.Size(56, 32);
-            this.distunitresspeedconv.TabIndex = 74;
-            this.distunitresspeedconv.Text = "KM";
-            this.distunitresspeedconv.TextChanged += new System.EventHandler(this.distunitresspeedconv_TextChanged);
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.BackColor = System.Drawing.Color.Transparent;
-            this.label32.Location = new System.Drawing.Point(554, 144);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(90, 24);
-            this.label32.TabIndex = 75;
-            this.label32.Text = "________";
-            // 
             // label23
             // 
             this.label23.AutoSize = true;
@@ -3129,15 +3108,38 @@
             this.label23.TabIndex = 77;
             this.label23.Text = "________";
             // 
-            // multlblbotspeedconv
+            // MainMenuButton_Conv
             // 
-            this.multlblbotspeedconv.AutoSize = true;
-            this.multlblbotspeedconv.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.multlblbotspeedconv.Location = new System.Drawing.Point(226, 168);
-            this.multlblbotspeedconv.Name = "multlblbotspeedconv";
-            this.multlblbotspeedconv.Size = new System.Drawing.Size(27, 31);
-            this.multlblbotspeedconv.TabIndex = 78;
-            this.multlblbotspeedconv.Text = "x";
+            this.MainMenuButton_Conv.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MainMenuButton_Conv.Location = new System.Drawing.Point(520, 388);
+            this.MainMenuButton_Conv.Name = "MainMenuButton_Conv";
+            this.MainMenuButton_Conv.Size = new System.Drawing.Size(241, 90);
+            this.MainMenuButton_Conv.TabIndex = 2;
+            this.MainMenuButton_Conv.Text = "Main Menu";
+            this.MainMenuButton_Conv.UseVisualStyleBackColor = true;
+            this.MainMenuButton_Conv.Click += new System.EventHandler(this.MainMenuButton_Conv_Click);
+            // 
+            // afcbutton
+            // 
+            this.afcbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.afcbutton.Location = new System.Drawing.Point(16, 388);
+            this.afcbutton.Name = "afcbutton";
+            this.afcbutton.Size = new System.Drawing.Size(241, 90);
+            this.afcbutton.TabIndex = 3;
+            this.afcbutton.Text = "Advanced Formulas";
+            this.afcbutton.UseVisualStyleBackColor = true;
+            this.afcbutton.Click += new System.EventHandler(this.afcbutton_Click);
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(263, 406);
+            this.label18.MaximumSize = new System.Drawing.Size(250, 0);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(246, 58);
+            this.label18.TabIndex = 4;
+            this.label18.Text = "If not here consult the AF button";
             // 
             // Converter
             // 
@@ -3301,7 +3303,7 @@
         private System.Windows.Forms.Label distmultspeedconv;
         private System.Windows.Forms.Label timemultspeedconv;
         private System.Windows.Forms.ComboBox distunitinputspeedconv;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox speedinputtb;
         private System.Windows.Forms.ComboBox timeunitresspeedconv;
         private System.Windows.Forms.ComboBox distunitresspeedconv;
         private System.Windows.Forms.Label label32;

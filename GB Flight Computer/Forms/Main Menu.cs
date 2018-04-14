@@ -78,14 +78,26 @@ namespace GB_Flight_Computer
             this.Hide();
             nvlmkr.Show();
         }
+
+        private void fplnflr_Main_Click(object sender, EventArgs e)
+        {
+            FPLN_FIller fplnfillr = new FPLN_FIller();
+            this.Hide();
+            fplnfillr.Show();
+        }
+
+        private void MainMenu_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
         /*private static bool afcform_open;
-        private static bool convform_open;
-        private static bool faform_open;
-        private static bool wnbform_open;
-        private static bool nvlgmkrform_open;
-        private static bool settingsform_open;
-        private static bool nvlgsform_open;
-        */
+private static bool convform_open;
+private static bool faform_open;
+private static bool wnbform_open;
+private static bool nvlgmkrform_open;
+private static bool settingsform_open;
+private static bool nvlgsform_open;
+*/
     }
     
 }

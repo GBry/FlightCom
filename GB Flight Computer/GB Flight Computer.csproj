@@ -146,6 +146,12 @@
     <Compile Include="Forms\POH.Designer.cs">
       <DependentUpon>POH.cs</DependentUpon>
     </Compile>
+    <Compile Include="FPLN_FIller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FPLN_FIller.Designer.cs">
+      <DependentUpon>FPLN_FIller.cs</DependentUpon>
+    </Compile>
     <Compile Include="Navlog Maker.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -177,6 +183,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\POH.resx">
       <DependentUpon>POH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FPLN_FIller.resx">
+      <DependentUpon>FPLN_FIller.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

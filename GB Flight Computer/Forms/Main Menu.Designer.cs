@@ -185,6 +185,7 @@
             this.fplnflr_Main.TabIndex = 12;
             this.fplnflr_Main.Text = "Flight Plan Filler (0%)";
             this.fplnflr_Main.UseVisualStyleBackColor = true;
+            this.fplnflr_Main.Click += new System.EventHandler(this.fplnflr_Main_Click);
             // 
             // button1
             // 
@@ -217,6 +218,7 @@
             this.Controls.Add(this.NLogButton_Main);
             this.Name = "MainMenu";
             this.Text = "Main Menu - GB FlightCom";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainMenu_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

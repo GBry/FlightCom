@@ -289,22 +289,6 @@
             this.label68 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.oneinsixtypage = new System.Windows.Forms.TabPage();
-            this.timeunitselector = new System.Windows.Forms.ComboBox();
-            this.TimeMSNum = new System.Windows.Forms.Label();
-            this.TimeCSNum = new System.Windows.Forms.Label();
-            this.TimeDSNum = new System.Windows.Forms.Label();
-            this.TimeSNum = new System.Windows.Forms.Label();
-            this.TimeMNum = new System.Windows.Forms.Label();
-            this.TimeHNum = new System.Windows.Forms.Label();
-            this.TimeMSLbl = new System.Windows.Forms.Label();
-            this.TimeCSLbl = new System.Windows.Forms.Label();
-            this.TimeDSLbl = new System.Windows.Forms.Label();
-            this.TimeSLbl = new System.Windows.Forms.Label();
-            this.TimeMLbl = new System.Windows.Forms.Label();
-            this.TimeHLbl = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.OvertakingPage = new System.Windows.Forms.TabPage();
             this.InterceptPage = new System.Windows.Forms.TabPage();
             this.nonformula = new System.Windows.Forms.TabPage();
@@ -315,6 +299,37 @@
             this.convbutton_AF = new System.Windows.Forms.Button();
             this.label18 = new System.Windows.Forms.Label();
             this.MainMenuButton_Conv = new System.Windows.Forms.Button();
+            this.sixtylbl1in60 = new System.Windows.Forms.Label();
+            this.eqlbl1in60 = new System.Windows.Forms.Label();
+            this.dflabel1in60 = new System.Windows.Forms.Label();
+            this.DOClabel1in60 = new System.Windows.Forms.Label();
+            this.dfinput1in60 = new System.Windows.Forms.TextBox();
+            this.docres1in60 = new System.Windows.Forms.Label();
+            this.label115 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label98 = new System.Windows.Forms.Label();
+            this.multlbl1in60 = new System.Windows.Forms.Label();
+            this.errorinput1in60 = new System.Windows.Forms.TextBox();
+            this.label109 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.docinput1in60 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.dfinput21in60 = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.doclbl2 = new System.Windows.Forms.Label();
+            this.eqlbl21in60 = new System.Windows.Forms.Label();
+            this.errorres1in60 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.multlbl21in60 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.mileslbl1in60 = new System.Windows.Forms.Label();
+            this.Resetbutton1in60 = new System.Windows.Forms.Button();
+            this.Resetbutton21in60 = new System.Windows.Forms.Button();
             this.AFCTabs.SuspendLayout();
             this.CHPage.SuspendLayout();
             this.toctod.SuspendLayout();
@@ -560,9 +575,9 @@
             this.toctod.Controls.Add(this.label30);
             this.toctod.Controls.Add(this.label34);
             this.toctod.Controls.Add(this.label60);
-            this.toctod.Location = new System.Drawing.Point(4, 55);
+            this.toctod.Location = new System.Drawing.Point(4, 163);
             this.toctod.Name = "toctod";
-            this.toctod.Size = new System.Drawing.Size(1079, 449);
+            this.toctod.Size = new System.Drawing.Size(1079, 341);
             this.toctod.TabIndex = 11;
             this.toctod.Text = "TOC/TOD";
             this.toctod.UseVisualStyleBackColor = true;
@@ -1167,9 +1182,9 @@
             this.flgtpaoat.Controls.Add(this.FLlbl2);
             this.flgtpaoat.Controls.Add(this.label42);
             this.flgtpaoat.Controls.Add(this.label39);
-            this.flgtpaoat.Location = new System.Drawing.Point(4, 55);
+            this.flgtpaoat.Location = new System.Drawing.Point(4, 163);
             this.flgtpaoat.Name = "flgtpaoat";
-            this.flgtpaoat.Size = new System.Drawing.Size(1079, 449);
+            this.flgtpaoat.Size = new System.Drawing.Size(1079, 341);
             this.flgtpaoat.TabIndex = 6;
             this.flgtpaoat.Text = "FL,PA,GT,OAT";
             this.flgtpaoat.UseVisualStyleBackColor = true;
@@ -1897,9 +1912,9 @@
             this.RAPage.Controls.Add(this.Windlbl);
             this.RAPage.Controls.Add(this.TASlbl);
             this.RAPage.Controls.Add(this.label77);
-            this.RAPage.Location = new System.Drawing.Point(4, 55);
+            this.RAPage.Location = new System.Drawing.Point(4, 163);
             this.RAPage.Name = "RAPage";
-            this.RAPage.Size = new System.Drawing.Size(1079, 449);
+            this.RAPage.Size = new System.Drawing.Size(1079, 341);
             this.RAPage.TabIndex = 7;
             this.RAPage.Text = "Radius of Action";
             this.RAPage.UseVisualStyleBackColor = true;
@@ -2462,9 +2477,9 @@
             this.VSTPage.Controls.Add(this.showformulavst);
             this.VSTPage.Controls.Add(this.calcbuttonvst);
             this.VSTPage.Controls.Add(this.formulavst);
-            this.VSTPage.Location = new System.Drawing.Point(4, 55);
+            this.VSTPage.Location = new System.Drawing.Point(4, 163);
             this.VSTPage.Name = "VSTPage";
-            this.VSTPage.Size = new System.Drawing.Size(1079, 449);
+            this.VSTPage.Size = new System.Drawing.Size(1079, 341);
             this.VSTPage.TabIndex = 2;
             this.VSTPage.Text = "Speed, Distance and Time";
             this.VSTPage.UseVisualStyleBackColor = true;
@@ -3037,10 +3052,10 @@
             // 
             this.PivAPage.Controls.Add(this.label68);
             this.PivAPage.Controls.Add(this.textBox4);
-            this.PivAPage.Location = new System.Drawing.Point(4, 109);
+            this.PivAPage.Location = new System.Drawing.Point(4, 163);
             this.PivAPage.Name = "PivAPage";
             this.PivAPage.Padding = new System.Windows.Forms.Padding(3);
-            this.PivAPage.Size = new System.Drawing.Size(1079, 395);
+            this.PivAPage.Size = new System.Drawing.Size(1079, 341);
             this.PivAPage.TabIndex = 0;
             this.PivAPage.Text = "Pivotal Altitude (WIP)";
             this.PivAPage.UseVisualStyleBackColor = true;
@@ -3063,200 +3078,43 @@
             // 
             // oneinsixtypage
             // 
-            this.oneinsixtypage.Controls.Add(this.timeunitselector);
-            this.oneinsixtypage.Controls.Add(this.TimeMSNum);
-            this.oneinsixtypage.Controls.Add(this.TimeCSNum);
-            this.oneinsixtypage.Controls.Add(this.TimeDSNum);
-            this.oneinsixtypage.Controls.Add(this.TimeSNum);
-            this.oneinsixtypage.Controls.Add(this.TimeMNum);
-            this.oneinsixtypage.Controls.Add(this.TimeHNum);
-            this.oneinsixtypage.Controls.Add(this.TimeMSLbl);
-            this.oneinsixtypage.Controls.Add(this.TimeCSLbl);
-            this.oneinsixtypage.Controls.Add(this.TimeDSLbl);
-            this.oneinsixtypage.Controls.Add(this.TimeSLbl);
-            this.oneinsixtypage.Controls.Add(this.TimeMLbl);
-            this.oneinsixtypage.Controls.Add(this.TimeHLbl);
-            this.oneinsixtypage.Controls.Add(this.button1);
-            this.oneinsixtypage.Controls.Add(this.textBox1);
+            this.oneinsixtypage.Controls.Add(this.Resetbutton21in60);
+            this.oneinsixtypage.Controls.Add(this.Resetbutton1in60);
+            this.oneinsixtypage.Controls.Add(this.mileslbl1in60);
+            this.oneinsixtypage.Controls.Add(this.label17);
+            this.oneinsixtypage.Controls.Add(this.multlbl21in60);
+            this.oneinsixtypage.Controls.Add(this.label16);
+            this.oneinsixtypage.Controls.Add(this.errorres1in60);
+            this.oneinsixtypage.Controls.Add(this.eqlbl21in60);
+            this.oneinsixtypage.Controls.Add(this.doclbl2);
+            this.oneinsixtypage.Controls.Add(this.label15);
+            this.oneinsixtypage.Controls.Add(this.dfinput21in60);
+            this.oneinsixtypage.Controls.Add(this.docinput1in60);
+            this.oneinsixtypage.Controls.Add(this.label13);
+            this.oneinsixtypage.Controls.Add(this.label9);
+            this.oneinsixtypage.Controls.Add(this.label10);
+            this.oneinsixtypage.Controls.Add(this.label4);
+            this.oneinsixtypage.Controls.Add(this.label109);
+            this.oneinsixtypage.Controls.Add(this.errorinput1in60);
+            this.oneinsixtypage.Controls.Add(this.dfinput1in60);
+            this.oneinsixtypage.Controls.Add(this.multlbl1in60);
+            this.oneinsixtypage.Controls.Add(this.label98);
             this.oneinsixtypage.Controls.Add(this.label1);
-            this.oneinsixtypage.Location = new System.Drawing.Point(4, 109);
+            this.oneinsixtypage.Controls.Add(this.sixtylbl1in60);
+            this.oneinsixtypage.Controls.Add(this.eqlbl1in60);
+            this.oneinsixtypage.Controls.Add(this.dflabel1in60);
+            this.oneinsixtypage.Controls.Add(this.DOClabel1in60);
+            this.oneinsixtypage.Controls.Add(this.docres1in60);
+            this.oneinsixtypage.Controls.Add(this.label115);
+            this.oneinsixtypage.Controls.Add(this.label3);
+            this.oneinsixtypage.Controls.Add(this.label12);
+            this.oneinsixtypage.Controls.Add(this.label11);
+            this.oneinsixtypage.Location = new System.Drawing.Point(4, 163);
             this.oneinsixtypage.Name = "oneinsixtypage";
-            this.oneinsixtypage.Size = new System.Drawing.Size(1079, 395);
+            this.oneinsixtypage.Size = new System.Drawing.Size(1079, 341);
             this.oneinsixtypage.TabIndex = 3;
-            this.oneinsixtypage.Text = "1 in 60 miles (WIP)";
+            this.oneinsixtypage.Text = "1 in 60 miles";
             this.oneinsixtypage.UseVisualStyleBackColor = true;
-            // 
-            // timeunitselector
-            // 
-            this.timeunitselector.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.timeunitselector.FormattingEnabled = true;
-            this.timeunitselector.Items.AddRange(new object[] {
-            "H",
-            "M",
-            "S",
-            "DS",
-            "CS",
-            "MS"});
-            this.timeunitselector.Location = new System.Drawing.Point(359, 37);
-            this.timeunitselector.Name = "timeunitselector";
-            this.timeunitselector.Size = new System.Drawing.Size(45, 37);
-            this.timeunitselector.TabIndex = 18;
-            this.timeunitselector.Text = "H";
-            this.timeunitselector.Visible = false;
-            // 
-            // TimeMSNum
-            // 
-            this.TimeMSNum.AutoSize = true;
-            this.TimeMSNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TimeMSNum.Location = new System.Drawing.Point(447, 194);
-            this.TimeMSNum.Name = "TimeMSNum";
-            this.TimeMSNum.Size = new System.Drawing.Size(88, 25);
-            this.TimeMSNum.TabIndex = 16;
-            this.TimeMSNum.Text = "MSNum";
-            this.TimeMSNum.Visible = false;
-            // 
-            // TimeCSNum
-            // 
-            this.TimeCSNum.AutoSize = true;
-            this.TimeCSNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TimeCSNum.Location = new System.Drawing.Point(447, 165);
-            this.TimeCSNum.Name = "TimeCSNum";
-            this.TimeCSNum.Size = new System.Drawing.Size(85, 25);
-            this.TimeCSNum.TabIndex = 15;
-            this.TimeCSNum.Text = "CSNum";
-            this.TimeCSNum.Visible = false;
-            // 
-            // TimeDSNum
-            // 
-            this.TimeDSNum.AutoSize = true;
-            this.TimeDSNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TimeDSNum.Location = new System.Drawing.Point(447, 133);
-            this.TimeDSNum.Name = "TimeDSNum";
-            this.TimeDSNum.Size = new System.Drawing.Size(85, 25);
-            this.TimeDSNum.TabIndex = 14;
-            this.TimeDSNum.Text = "DSNum";
-            this.TimeDSNum.Visible = false;
-            // 
-            // TimeSNum
-            // 
-            this.TimeSNum.AutoSize = true;
-            this.TimeSNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TimeSNum.Location = new System.Drawing.Point(447, 104);
-            this.TimeSNum.Name = "TimeSNum";
-            this.TimeSNum.Size = new System.Drawing.Size(70, 25);
-            this.TimeSNum.TabIndex = 13;
-            this.TimeSNum.Text = "SNum";
-            this.TimeSNum.Visible = false;
-            // 
-            // TimeMNum
-            // 
-            this.TimeMNum.AutoSize = true;
-            this.TimeMNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TimeMNum.Location = new System.Drawing.Point(447, 71);
-            this.TimeMNum.Name = "TimeMNum";
-            this.TimeMNum.Size = new System.Drawing.Size(91, 25);
-            this.TimeMNum.TabIndex = 12;
-            this.TimeMNum.Text = "MinNum";
-            this.TimeMNum.Visible = false;
-            // 
-            // TimeHNum
-            // 
-            this.TimeHNum.AutoSize = true;
-            this.TimeHNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TimeHNum.Location = new System.Drawing.Point(447, 37);
-            this.TimeHNum.Name = "TimeHNum";
-            this.TimeHNum.Size = new System.Drawing.Size(99, 25);
-            this.TimeHNum.TabIndex = 11;
-            this.TimeHNum.Text = "Hournum";
-            this.TimeHNum.Visible = false;
-            // 
-            // TimeMSLbl
-            // 
-            this.TimeMSLbl.AutoSize = true;
-            this.TimeMSLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TimeMSLbl.Location = new System.Drawing.Point(649, 194);
-            this.TimeMSLbl.Name = "TimeMSLbl";
-            this.TimeMSLbl.Size = new System.Drawing.Size(126, 25);
-            this.TimeMSLbl.TabIndex = 10;
-            this.TimeMSLbl.Text = "Miliseconds";
-            // 
-            // TimeCSLbl
-            // 
-            this.TimeCSLbl.AutoSize = true;
-            this.TimeCSLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TimeCSLbl.Location = new System.Drawing.Point(649, 165);
-            this.TimeCSLbl.Name = "TimeCSLbl";
-            this.TimeCSLbl.Size = new System.Drawing.Size(143, 25);
-            this.TimeCSLbl.TabIndex = 9;
-            this.TimeCSLbl.Text = "Centiseconds";
-            // 
-            // TimeDSLbl
-            // 
-            this.TimeDSLbl.AutoSize = true;
-            this.TimeDSLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TimeDSLbl.Location = new System.Drawing.Point(649, 133);
-            this.TimeDSLbl.Name = "TimeDSLbl";
-            this.TimeDSLbl.Size = new System.Drawing.Size(136, 25);
-            this.TimeDSLbl.TabIndex = 8;
-            this.TimeDSLbl.Text = "Deciseconds";
-            // 
-            // TimeSLbl
-            // 
-            this.TimeSLbl.AutoSize = true;
-            this.TimeSLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TimeSLbl.Location = new System.Drawing.Point(649, 104);
-            this.TimeSLbl.Name = "TimeSLbl";
-            this.TimeSLbl.Size = new System.Drawing.Size(96, 25);
-            this.TimeSLbl.TabIndex = 7;
-            this.TimeSLbl.Text = "Seconds";
-            // 
-            // TimeMLbl
-            // 
-            this.TimeMLbl.AutoSize = true;
-            this.TimeMLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TimeMLbl.Location = new System.Drawing.Point(649, 71);
-            this.TimeMLbl.Name = "TimeMLbl";
-            this.TimeMLbl.Size = new System.Drawing.Size(88, 25);
-            this.TimeMLbl.TabIndex = 6;
-            this.TimeMLbl.Text = "Minutes";
-            // 
-            // TimeHLbl
-            // 
-            this.TimeHLbl.AutoSize = true;
-            this.TimeHLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TimeHLbl.Location = new System.Drawing.Point(649, 37);
-            this.TimeHLbl.Name = "TimeHLbl";
-            this.TimeHLbl.Size = new System.Drawing.Size(69, 25);
-            this.TimeHLbl.TabIndex = 5;
-            this.TimeHLbl.Text = "Hours";
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(35, 133);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(292, 57);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Calculate";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(6, 37);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(346, 38);
-            this.textBox1.TabIndex = 3;
-            this.textBox1.Text = "0";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 12);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(212, 29);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Hour(s) in Decimal";
             // 
             // OvertakingPage
             // 
@@ -3264,17 +3122,17 @@
             this.OvertakingPage.BackColor = System.Drawing.SystemColors.Control;
             this.OvertakingPage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.OvertakingPage.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.OvertakingPage.Location = new System.Drawing.Point(4, 109);
+            this.OvertakingPage.Location = new System.Drawing.Point(4, 163);
             this.OvertakingPage.Name = "OvertakingPage";
-            this.OvertakingPage.Size = new System.Drawing.Size(1079, 395);
+            this.OvertakingPage.Size = new System.Drawing.Size(1079, 341);
             this.OvertakingPage.TabIndex = 8;
             this.OvertakingPage.Text = "Overtaking (WIP)";
             // 
             // InterceptPage
             // 
-            this.InterceptPage.Location = new System.Drawing.Point(4, 109);
+            this.InterceptPage.Location = new System.Drawing.Point(4, 163);
             this.InterceptPage.Name = "InterceptPage";
-            this.InterceptPage.Size = new System.Drawing.Size(1079, 395);
+            this.InterceptPage.Size = new System.Drawing.Size(1079, 341);
             this.InterceptPage.TabIndex = 9;
             this.InterceptPage.Text = "Interception (WIP)";
             this.InterceptPage.UseVisualStyleBackColor = true;
@@ -3365,6 +3223,305 @@
             this.MainMenuButton_Conv.UseVisualStyleBackColor = true;
             this.MainMenuButton_Conv.Click += new System.EventHandler(this.MainMenuButton_Conv_Click);
             // 
+            // sixtylbl1in60
+            // 
+            this.sixtylbl1in60.AutoSize = true;
+            this.sixtylbl1in60.Location = new System.Drawing.Point(463, 135);
+            this.sixtylbl1in60.Name = "sixtylbl1in60";
+            this.sixtylbl1in60.Size = new System.Drawing.Size(39, 29);
+            this.sixtylbl1in60.TabIndex = 155;
+            this.sixtylbl1in60.Text = "60";
+            // 
+            // eqlbl1in60
+            // 
+            this.eqlbl1in60.AutoSize = true;
+            this.eqlbl1in60.Location = new System.Drawing.Point(616, 115);
+            this.eqlbl1in60.Name = "eqlbl1in60";
+            this.eqlbl1in60.Size = new System.Drawing.Size(27, 29);
+            this.eqlbl1in60.TabIndex = 136;
+            this.eqlbl1in60.Text = "=";
+            // 
+            // dflabel1in60
+            // 
+            this.dflabel1in60.AutoSize = true;
+            this.dflabel1in60.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dflabel1in60.Location = new System.Drawing.Point(372, 65);
+            this.dflabel1in60.Name = "dflabel1in60";
+            this.dflabel1in60.Size = new System.Drawing.Size(110, 18);
+            this.dflabel1in60.TabIndex = 131;
+            this.dflabel1in60.Text = "Distance Flown";
+            // 
+            // DOClabel1in60
+            // 
+            this.DOClabel1in60.AutoSize = true;
+            this.DOClabel1in60.Location = new System.Drawing.Point(298, 115);
+            this.DOClabel1in60.Name = "DOClabel1in60";
+            this.DOClabel1in60.Size = new System.Drawing.Size(66, 29);
+            this.DOClabel1in60.TabIndex = 127;
+            this.DOClabel1in60.Text = "DOC";
+            // 
+            // dfinput1in60
+            // 
+            this.dfinput1in60.Location = new System.Drawing.Point(395, 86);
+            this.dfinput1in60.Name = "dfinput1in60";
+            this.dfinput1in60.Size = new System.Drawing.Size(69, 35);
+            this.dfinput1in60.TabIndex = 125;
+            this.dfinput1in60.Text = "0";
+            this.dfinput1in60.TextChanged += new System.EventHandler(this.dfinput1in60_TextChanged);
+            // 
+            // docres1in60
+            // 
+            this.docres1in60.AutoSize = true;
+            this.docres1in60.Location = new System.Drawing.Point(658, 115);
+            this.docres1in60.Name = "docres1in60";
+            this.docres1in60.Size = new System.Drawing.Size(26, 29);
+            this.docres1in60.TabIndex = 124;
+            this.docres1in60.Text = "0";
+            // 
+            // label115
+            // 
+            this.label115.AutoSize = true;
+            this.label115.BackColor = System.Drawing.Color.Transparent;
+            this.label115.Location = new System.Drawing.Point(390, 103);
+            this.label115.Name = "label115";
+            this.label115.Size = new System.Drawing.Size(169, 29);
+            this.label115.TabIndex = 135;
+            this.label115.Text = "____________";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(285, 97);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(90, 18);
+            this.label1.TabIndex = 178;
+            this.label1.Text = "Miles Drifted";
+            // 
+            // label98
+            // 
+            this.label98.AutoSize = true;
+            this.label98.Location = new System.Drawing.Point(370, 115);
+            this.label98.Name = "label98";
+            this.label98.Size = new System.Drawing.Size(27, 29);
+            this.label98.TabIndex = 179;
+            this.label98.Text = "=";
+            // 
+            // multlbl1in60
+            // 
+            this.multlbl1in60.AutoSize = true;
+            this.multlbl1in60.Location = new System.Drawing.Point(470, 89);
+            this.multlbl1in60.Name = "multlbl1in60";
+            this.multlbl1in60.Size = new System.Drawing.Size(24, 29);
+            this.multlbl1in60.TabIndex = 180;
+            this.multlbl1in60.Text = "x";
+            // 
+            // errorinput1in60
+            // 
+            this.errorinput1in60.Location = new System.Drawing.Point(506, 86);
+            this.errorinput1in60.Name = "errorinput1in60";
+            this.errorinput1in60.Size = new System.Drawing.Size(69, 35);
+            this.errorinput1in60.TabIndex = 181;
+            this.errorinput1in60.Text = "0";
+            this.errorinput1in60.TextChanged += new System.EventHandler(this.errorinput1in60_TextChanged);
+            // 
+            // label109
+            // 
+            this.label109.AutoSize = true;
+            this.label109.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label109.Location = new System.Drawing.Point(486, 65);
+            this.label109.Name = "label109";
+            this.label109.Size = new System.Drawing.Size(117, 18);
+            this.label109.TabIndex = 182;
+            this.label109.Text = "Error in Degrees";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(324, 242);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(29, 29);
+            this.label3.TabIndex = 183;
+            this.label3.Text = "E";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(317, 242);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(13, 13);
+            this.label4.TabIndex = 184;
+            this.label4.Text = "0";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(284, 224);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(117, 18);
+            this.label9.TabIndex = 185;
+            this.label9.Text = "Error in Degrees";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(374, 242);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(27, 29);
+            this.label10.TabIndex = 186;
+            this.label10.Text = "=";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label11.Font = new System.Drawing.Font("Lucida Fax", 50.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(385, 214);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(56, 76);
+            this.label11.TabIndex = 187;
+            this.label11.Text = "(";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label12.Font = new System.Drawing.Font("Lucida Fax", 50.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(502, 214);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(56, 76);
+            this.label12.TabIndex = 188;
+            this.label12.Text = ")";
+            // 
+            // docinput1in60
+            // 
+            this.docinput1in60.Location = new System.Drawing.Point(433, 211);
+            this.docinput1in60.Name = "docinput1in60";
+            this.docinput1in60.Size = new System.Drawing.Size(69, 35);
+            this.docinput1in60.TabIndex = 189;
+            this.docinput1in60.Text = "0";
+            this.docinput1in60.TextChanged += new System.EventHandler(this.docinput1in60_TextChanged);
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.Transparent;
+            this.label13.Location = new System.Drawing.Point(416, 227);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(104, 29);
+            this.label13.TabIndex = 190;
+            this.label13.Text = "_______";
+            // 
+            // dfinput21in60
+            // 
+            this.dfinput21in60.Location = new System.Drawing.Point(433, 259);
+            this.dfinput21in60.Name = "dfinput21in60";
+            this.dfinput21in60.Size = new System.Drawing.Size(69, 35);
+            this.dfinput21in60.TabIndex = 191;
+            this.dfinput21in60.Text = "0";
+            this.dfinput21in60.TextChanged += new System.EventHandler(this.dfinput21in60_TextChanged);
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(418, 297);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(110, 18);
+            this.label15.TabIndex = 192;
+            this.label15.Text = "Distance Flown";
+            // 
+            // doclbl2
+            // 
+            this.doclbl2.AutoSize = true;
+            this.doclbl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.doclbl2.Location = new System.Drawing.Point(418, 190);
+            this.doclbl2.Name = "doclbl2";
+            this.doclbl2.Size = new System.Drawing.Size(90, 18);
+            this.doclbl2.TabIndex = 193;
+            this.doclbl2.Text = "Miles Drifted";
+            // 
+            // eqlbl21in60
+            // 
+            this.eqlbl21in60.AutoSize = true;
+            this.eqlbl21in60.Location = new System.Drawing.Point(616, 245);
+            this.eqlbl21in60.Name = "eqlbl21in60";
+            this.eqlbl21in60.Size = new System.Drawing.Size(27, 29);
+            this.eqlbl21in60.TabIndex = 194;
+            this.eqlbl21in60.Text = "=";
+            // 
+            // errorres1in60
+            // 
+            this.errorres1in60.AutoSize = true;
+            this.errorres1in60.Location = new System.Drawing.Point(649, 245);
+            this.errorres1in60.Name = "errorres1in60";
+            this.errorres1in60.Size = new System.Drawing.Size(26, 29);
+            this.errorres1in60.TabIndex = 195;
+            this.errorres1in60.Text = "0";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(574, 245);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(39, 29);
+            this.label16.TabIndex = 196;
+            this.label16.Text = "60";
+            // 
+            // multlbl21in60
+            // 
+            this.multlbl21in60.AutoSize = true;
+            this.multlbl21in60.Location = new System.Drawing.Point(544, 242);
+            this.multlbl21in60.Name = "multlbl21in60";
+            this.multlbl21in60.Size = new System.Drawing.Size(24, 29);
+            this.multlbl21in60.TabIndex = 197;
+            this.multlbl21in60.Text = "x";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(711, 239);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(13, 13);
+            this.label17.TabIndex = 198;
+            this.label17.Text = "0";
+            // 
+            // mileslbl1in60
+            // 
+            this.mileslbl1in60.AutoSize = true;
+            this.mileslbl1in60.Location = new System.Drawing.Point(744, 115);
+            this.mileslbl1in60.Name = "mileslbl1in60";
+            this.mileslbl1in60.Size = new System.Drawing.Size(71, 29);
+            this.mileslbl1in60.TabIndex = 199;
+            this.mileslbl1in60.Text = "Miles";
+            // 
+            // Resetbutton1in60
+            // 
+            this.Resetbutton1in60.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Resetbutton1in60.Location = new System.Drawing.Point(19, 222);
+            this.Resetbutton1in60.Name = "Resetbutton1in60";
+            this.Resetbutton1in60.Size = new System.Drawing.Size(216, 65);
+            this.Resetbutton1in60.TabIndex = 200;
+            this.Resetbutton1in60.Text = "Reset";
+            this.Resetbutton1in60.UseVisualStyleBackColor = true;
+            this.Resetbutton1in60.Click += new System.EventHandler(this.Resetbutton1in60_Click);
+            // 
+            // Resetbutton21in60
+            // 
+            this.Resetbutton21in60.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Resetbutton21in60.Location = new System.Drawing.Point(19, 83);
+            this.Resetbutton21in60.Name = "Resetbutton21in60";
+            this.Resetbutton21in60.Size = new System.Drawing.Size(216, 65);
+            this.Resetbutton21in60.TabIndex = 201;
+            this.Resetbutton21in60.Text = "Reset";
+            this.Resetbutton21in60.UseVisualStyleBackColor = true;
+            this.Resetbutton21in60.Click += new System.EventHandler(this.Resetbutton21in60_Click);
+            // 
             // Advanced_Formulas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -3414,22 +3571,6 @@
         private System.Windows.Forms.TabPage VSTPage;
         private System.Windows.Forms.TabPage PivAPage;
         private System.Windows.Forms.TabPage oneinsixtypage;
-        private System.Windows.Forms.ComboBox timeunitselector;
-        private System.Windows.Forms.Label TimeMSNum;
-        private System.Windows.Forms.Label TimeCSNum;
-        private System.Windows.Forms.Label TimeDSNum;
-        private System.Windows.Forms.Label TimeSNum;
-        private System.Windows.Forms.Label TimeMNum;
-        private System.Windows.Forms.Label TimeHNum;
-        private System.Windows.Forms.Label TimeMSLbl;
-        private System.Windows.Forms.Label TimeCSLbl;
-        private System.Windows.Forms.Label TimeDSLbl;
-        private System.Windows.Forms.Label TimeSLbl;
-        private System.Windows.Forms.Label TimeMLbl;
-        private System.Windows.Forms.Label TimeHLbl;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button convbutton_AF;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.TabPage flgtpaoat;
@@ -3690,5 +3831,36 @@
         private System.Windows.Forms.ComboBox vcbtvst;
         private System.Windows.Forms.Label vstinstrlbl;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label sixtylbl1in60;
+        private System.Windows.Forms.Label eqlbl1in60;
+        private System.Windows.Forms.Label dflabel1in60;
+        private System.Windows.Forms.Label DOClabel1in60;
+        private System.Windows.Forms.TextBox dfinput1in60;
+        private System.Windows.Forms.Label docres1in60;
+        private System.Windows.Forms.Label label115;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label98;
+        private System.Windows.Forms.Label multlbl1in60;
+        private System.Windows.Forms.Label label109;
+        private System.Windows.Forms.TextBox errorinput1in60;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox docinput1in60;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.TextBox dfinput21in60;
+        private System.Windows.Forms.Label doclbl2;
+        private System.Windows.Forms.Label eqlbl21in60;
+        private System.Windows.Forms.Label errorres1in60;
+        private System.Windows.Forms.Label multlbl21in60;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label mileslbl1in60;
+        private System.Windows.Forms.Button Resetbutton21in60;
+        private System.Windows.Forms.Button Resetbutton1in60;
     }
 }

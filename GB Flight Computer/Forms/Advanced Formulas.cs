@@ -743,8 +743,56 @@ namespace GB_Flight_Computer
         {
             calctvst();
         }
+//START 1 IN 60
 
-        
+        private void DOCCALC()
+        {
+            //INPUT
+            double dfinput = Convert.ToDouble(dfinput1in60.Text);
+            double errorinput = Convert.ToDouble(errorinput1in60.Text);
+            double docinput = Convert.ToDouble(docinput1in60.Text);
+            double dfinput2 = Convert.ToDouble(dfinput21in60.Text);
+            double docres = 0.0;
+            double errorres = 0.0;
+            //PROCESS
+            docres = (dfinput * errorinput) / 60;
+            errorres = (docinput / dfinput2) * 60;
+            //OUTPUT
+            docres1in60.Text = Convert.ToString(Math.Round(docres,2));
+            errorres1in60.Text = Convert.ToString(Math.Round(errorres,2));
+            
+        }
+        private void dfinput1in60_TextChanged(object sender, EventArgs e)
+        {
+            DOCCALC();
+        }
+
+        private void errorinput1in60_TextChanged(object sender, EventArgs e)
+        {
+            DOCCALC();
+        }
+
+        private void docinput1in60_TextChanged(object sender, EventArgs e)
+        {
+            DOCCALC();
+        }
+
+        private void dfinput21in60_TextChanged(object sender, EventArgs e)
+        {
+            DOCCALC();
+        }
+
+        private void Resetbutton21in60_Click(object sender, EventArgs e)
+        {
+            dfinput1in60.Text = "0";
+            errorinput1in60.Text = "0";
+        }
+
+        private void Resetbutton1in60_Click(object sender, EventArgs e)
+        {
+            docinput1in60.Text = "0";
+            dfinput21in60.Text = "0";
+        }
     }
 
 }
